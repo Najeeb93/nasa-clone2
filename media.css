@@ -1,0 +1,41 @@
+@media only screen and (max-width: 980px) {
+    .expolre {
+        display: none !important;
+    }
+    .menubar {
+        display: block !important;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .new-events {
+        display: none !important;
+    }
+    .Multimedia {
+        display: none !important;
+    }
+    .nasa {
+        display: none !important;
+    }
+    .nasa-logo {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .magifier {
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .content1{
+        margin-top: 10px !important;
+        /* padding: 0px !important; */
+        
+    }
+    .rightin1 img{
+        /* width: 100% !important; */
+        /* height: 325px !important; */
+        object-fit: contain !important;
+    }
+    .min-read-main{
+        margin-top: 15px !important;
+    }
+}

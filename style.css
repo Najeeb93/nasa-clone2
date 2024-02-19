@@ -1,0 +1,511 @@
+.navbarrr {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    background-color: #000;
+}
+.main-body{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.expolre {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.dropdown button{
+    background-color: #000 !important;
+    margin-bottom: 20px;
+}
+.menubar {
+    display: none;
+}
+.expolre h4  {
+    color: #fff;
+    
+}
+.searchbar {
+    width: 50%;
+    
+}
+.searchbar  input {
+    /* border-color: #444447; */
+    background-color: #000;
+    border: 1px solid gray !important;
+    color: #fff;
+    
+}
+.searchbar  input:focus{
+    border: 1px solid gray !important;
+    outline:  0px !important;
+
+}
+.nasa-logo {
+    width: 15%;
+    text-align: center;
+}
+.nasa-logo img {
+    width: 68px;
+    padding-top: 4px;
+}
+.new-events {
+    width: 35%;
+
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 12px;
+    
+}
+.Multimedia {
+    width: 26%;
+    padding-top: 12px;
+}
+.nasa {
+    width: 20%;
+    padding-top: 8px;
+    padding-right: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+.magifier {
+    display: none;
+    padding-left: 5px;
+}
+
+#live{
+    border: 1px solid red;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+#live:hover{
+    background-color: red;
+    
+}
+.nasa>span{
+    font-size: 20px;
+    font-weight: 30px;
+}
+.main-slider{
+    margin:  0px !important;
+    padding:  0px !important;
+}
+.silder-img img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(40%)
+    
+}
+.slider {
+    position: relative;  
+}
+.slider-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    margin-left: 10px;
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    align-content: space-between !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
+.slider-text h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 1rem;
+}
+.slider-text p {
+     color: #fff;
+     font-size: 16px;
+     text-align: left;
+}
+.mission {
+    margin-top: 40px;
+    border-top: solid 1px gray;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.test3{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.mission i{
+    color: red;
+    font-size: 18px;
+    transform: rotate(-30deg);
+}
+/* .mission h3 {
+    font-size: 13px;
+    font-weight: bold;
+    
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-left: 10px;
+} */
+.mission h6{
+    color: white;
+}
+.mission p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3em;
+}
+.r-hdn {
+    padding: 0px !important;
+    margin: 0px !important;
+    
+}
+.r-hdn p {
+    font-size: 42px;
+    font-weight: 500;
+    color: black;
+    margin-top: 1rem;
+}
+.h-two i {
+    color: red;
+}
+.h-two p {
+    font-size: 26px;
+    margin-top: 2rem;
+
+    
+}
+.r-hdn {
+    display: flex !important;
+}
+.feature-img img {
+    filter: brightness(40%);
+    width: 100%;
+    height: 325px;
+    object-fit: cover !important;
+    /* margin-left: 8px; */
+}
+.feature-left {
+    position: relative;
+
+}
+.feature-text {
+    width: 100%;    
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    margin-left: 6px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: end !important;
+    
+    
+
+
+}
+
+.feature-text p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.feature-img-two img {
+    width: 100%;
+    height: 325px;
+    filter: brightness(40%);
+    object-fit: cover;
+    
+    
+}
+.feature-center {
+    position: relative;
+    
+    
+}
+.feature-text-two {
+    width: 100%;    
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.feature-text-two p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.feature-right {
+    /* width: 100%; */
+    /* padding:  0px !important; */
+    /* margin: 0px !important; */
+    /* height: 305px !important; */
+    height: 325px;
+    /* background-color: red; */
+
+    /* background-color: red !important; */
+}
+.rightin1{
+    padding: 0px !important; 
+    margin: 0px !important; 
+    
+}
+.content-main{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.contentinr{
+    width: 100%;
+    /* height: 325px; */
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+.rightin1 img{
+    width: 100%;
+    height: 158px;
+    /* margin: 0px !important; */
+    object-fit: cover !important;
+}
+.min-read {
+    margin-top: 15px;
+    /* width: 100%; */
+    
+
+
+}
+.reading-main{
+    margin: 0px !important;
+
+}
+
+.circle-img img {
+    border-radius: 100px;
+    width: 90px;
+}
+.circle-hd-1 {
+    margin-left: 10px;
+}
+.circle-hd-1 span > p {
+    letter-spacing: 5px;
+    font-size: 12px;
+
+}
+.circle-hd-1 p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.today-main {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+.application p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.application i {
+    color: red;
+    font-size: 18px;
+    transform: rotate(-30deg);
+}
+.today span {
+    letter-spacing: 3px;
+    font-size: 11px;
+    color: #282828c0;
+}
+.today {
+    margin-top: 10px;
+}
+.day-text p {
+    color: #000;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.day-text-2 p {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+.day-main p {
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+}
+.browse p {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.browse i {
+    color: red;
+}
+.browse-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.browse-img {
+    margin-top: 8px;
+}
+.browse-video iframe {
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.Special-content {
+    margin-top: 10px;
+    
+    background-color: black;
+    color: #fff !important;
+}
+.today-2 span {
+    
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 11px;
+}
+.day-text-3 p {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+.day-main-2 p {
+    color: #d3d3d3;
+    font-size: .8rem;
+    text-align: left;
+}
+.browse-1 p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.browse-1 i {
+    color: red;
+}
+.Special-content {
+    width: 100%;
+}
+
+.midslider {
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+.toy {
+
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.today-main {
+    margin-top: 6px !important;
+}
+.exploring {
+    text-align: center;
+    margin-top: 10px;
+}
+.exploring span {
+    letter-spacing: 4px;
+    font-size: 11px;
+
+}
+.exploring p {
+    margin-top: 15px;
+    font-size: 1.9rem;
+    font-weight: bolder;
+
+}
+.space {
+    width: 100%;
+    position: relative;
+
+}
+.space img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(35%);
+}
+.space-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.space-text p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 15px;
+
+}
+.space-text i {color: red;
+
+}
+
+.flogo img {
+    width: 80px;
+}
+.footer-rw {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #000;
+} 
+.national p {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.disc p {
+    color: #8b8b8b;
+    font-size: .9rem;
+    line-height: 22px;
+}
+.about p {
+    color: #fff;
+}
+.join p {
+    color: #fff;
+}
+.join i {
+    color: red;
+}
+.f-list {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: -20px;
+}
+.f-list li {
+    line-height: 35px;
+
+}
+.f-list ul {
+    list-style: none;
+}
+.icons i {
+    color: red;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+.national-content {
+    margin-top: 20px;
+}

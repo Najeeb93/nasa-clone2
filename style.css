@@ -44,15 +44,16 @@
 
 }
 .nasa-logo {
-    width: 15%;
+    width: 10%;
     text-align: center;
+   
 }
 .nasa-logo img {
     width: 68px;
     padding-top: 4px;
 }
 .new-events {
-    width: 35%;
+    width: 30%;
 
     text-align: center;
     padding-top: 12px;
